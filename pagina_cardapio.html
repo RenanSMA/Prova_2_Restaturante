@@ -1,0 +1,223 @@
+<!-- CÓDIGOS FEITOS POR: Pedro Henrique Prado e Renan dos Santos Mendes do Amaral -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Define o tipo do documento como HTML5 e especifica o idioma como português brasileiro. -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 para suporte a caracteres especiais (acentos, símbolos, etc.). -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para layouts responsivos, permitindo que a página se ajuste a diferentes tamanhos de tela. -->
+
+    <title>Restaurante - Cardápio</title>
+    <!-- Define o título da página que será exibido na aba do navegador. -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Importa o CSS do Bootstrap 4 para uso de estilos pré-definidos e responsivos. -->
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Vincula um arquivo de estilo externo chamado "styles.css" para personalizações adicionais. -->
+</head>
+
+<body>
+    <!-- Início do corpo da página. Todo o conteúdo visível será inserido aqui. -->
+
+    <header>
+        <!-- Seção de cabeçalho, geralmente usada para títulos e navegação principal. -->
+        <h1>Cardápio</h1>
+        <!-- Título principal da página. -->
+
+        <nav>
+            <!-- Barra de navegação com links para outras páginas. -->
+            <a href="index.html" class="btn btn-light">Início</a>
+            <!-- Link para a página inicial, estilizado como um botão claro do Bootstrap. -->
+            <a href="pagina_cardapio.html" class="btn btn-light">Cardápio</a>
+            <!-- Link para a página do cardápio, estilizado como um botão claro do Bootstrap. -->
+            <a href="formulario.html" class="btn btn-light">Formulário</a>
+            <!-- Link para a página de formulário, estilizado como um botão claro do Bootstrap. -->
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <!-- Cria um container centralizado com margem no topo, utilizando classes do Bootstrap. -->
+
+        <div class="row">
+            <!-- Inicia uma linha do sistema de grid do Bootstrap, usada para alinhar os elementos. -->
+
+            <div class="col-md-12">
+                <!-- Cria uma coluna que ocupa toda a largura em dispositivos médios ou menores. -->
+
+                <h2>Pratos Principais</h2>
+                <!-- Subtítulo para a seção de pratos principais. -->
+
+                <!-- Card para Filé à Parmegiana -->
+                <div class="card mb-4">
+                    <!-- Cria um cartão estilizado com margem inferior. -->
+                    <div class="row no-gutters">
+                        <!-- Cria uma linha sem espaçamento entre as colunas. -->
+                        <div class="col-md-4">
+                            <!-- Define uma coluna que ocupa 4/12 da largura em dispositivos médios. -->
+                            <img src="images/file_parmegiana.jpg" class="card-img" alt="Filé à Parmegiana">
+                            <!-- Insere uma imagem dentro do cartão. -->
+                        </div>
+                        <div class="col-md-8">
+                            <!-- Define uma coluna que ocupa 8/12 da largura em dispositivos médios. -->
+                            <div class="card-body">
+                                <!-- Corpo do cartão onde o conteúdo (título, descrição, etc.) é exibido. -->
+                                <h5 class="card-title">Filé à Parmegiana</h5>
+                                <!-- Título do cartão para o prato. -->
+                                <p class="card-text">R$ 45,00</p>
+                                <!-- Texto do cartão indicando o preço. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Feijoada Completa -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/feijoada.jpg" class="card-img" alt="Feijoada Completa">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Feijoada Completa</h5>
+                                <p class="card-text">R$ 38,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Salmão Grelhado -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/salmao_grelhado.jpg" class="card-img" alt="Salmão Grelhado">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Salmão Grelhado</h5>
+                                <p class="card-text">R$ 52,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Bebidas</h2>
+                <!-- Subtítulo para a seção de bebidas. -->
+
+                <!-- Card para Refrigerante -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/refrigerante.jpg" class="card-img" alt="Refrigerante">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Refrigerante</h5>
+                                <p class="card-text">R$ 8,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Suco Natural -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/suco_natural.jpg" class="card-img" alt="Suco Natural">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Suco Natural</h5>
+                                <p class="card-text">R$ 10,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Cerveja Artesanal -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/cerveja_artesanal.jpg" class="card-img" alt="Cerveja Artesanal">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Cerveja Artesanal</h5>
+                                <p class="card-text">R$ 15,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Sobremesas</h2>
+                <!-- Subtítulo para a seção de sobremesas. -->
+
+                <!-- Card para Pudim de Leite -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/pudim.jpg" class="card-img" alt="Pudim de Leite">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Pudim de Leite</h5>
+                                <p class="card-text">R$ 12,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Torta de Limão -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/torta_limao.jpg" class="card-img" alt="Torta de Limão">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Torta de Limão</h5>
+                                <p class="card-text">R$ 14,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card para Sorvete Artesanal -->
+                <div class="card mb-4">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/sorvete.jpg" class="card-img" alt="Sorvete Artesanal">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sorvete Artesanal</h5>
+                                <p class="card-text">R$ 10,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Rodapé da página. -->
+        <p>© 2024 Restaurante Sabor Divino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Importa a biblioteca jQuery para funcionalidades adicionais. -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <!-- Importa o Popper.js para manipulação de pop-ups e tooltips. -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Importa o JavaScript do Bootstrap para funcionalidades interativas. -->
+</body>
+
+</html>
