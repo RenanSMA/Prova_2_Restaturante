@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- CÓDIGOS FEITOS POR: Pedro Henrique Prado e Renan dos Santos Mendes do Amaral -->
+
+<!-- Define o tipo de documento como HTML5 e especifica o idioma da página como português brasileiro -->
+
+<link rel="stylesheet" href="styles.css">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a viewport para permitir um layout responsivo. Ajusta a escala com base no dispositivo do usuário -->
+
+    <title>Restaurante - Página Inicial</title>
+    <!-- Define o título que será exibido na aba do navegador -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Importa a biblioteca CSS do Bootstrap 4 para estilização responsiva e pré-definida -->
+
+    <style>
+        /* Estilo personalizado para a página */
+
+        body {
+            background-color: #f8f9fa;
+            /* Define a cor de fundo clara */
+        }
+
+        header {
+            background-color: #8b0000;
+            /* Define uma cor de fundo escura para o cabeçalho */
+            color: white;
+            /* Define o texto em branco no cabeçalho */
+            padding: 1rem 0;
+            /* Adiciona espaçamento interno vertical no cabeçalho */
+            text-align: center;
+            /* Centraliza o texto do cabeçalho */
+        }
+
+        footer {
+            background-color: #ffe573;
+            /* Define uma cor de fundo escura para o rodapé */
+            color: rgb(0, 0, 0);
+            /* Define o texto em branco no rodapé */
+            padding: 1rem 0;
+            /* Adiciona espaçamento interno vertical no rodapé */
+            text-align: center;
+            /* Centraliza o texto do rodapé */
+        }
+
+        .image-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <!-- Fim do estilo personalizado -->
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Restaurante Sabor Divino</h1>
+        <!-- Título principal exibido na parte superior da página -->
+
+        <nav>
+            <!-- Define um conjunto de links de navegação -->
+            <a href="index.html" class="btn btn-light">Início</a>
+            <!-- Link para a página inicial com estilo de botão claro do Bootstrap -->
+            <a href="pagina_cardapio.html" class="btn btn-light">Cardápio</a>
+            <!-- Link para a página do cardápio com estilo de botão claro do Bootstrap -->
+            <a href="formulario.html" class="btn btn-light">Formulário</a>
+            <!-- Link para a página do formulário com estilo de botão claro do Bootstrap -->
+        </nav>
+    </header>
+
+    <div class="image-container">
+        <!-- Div para inserir uma imagem centralizada -->
+        <img src="images/restaurante.jpg" alt="Imagem do Restaurante">
+        <!-- Substitua o caminho da imagem por uma imagem relevante -->
+    </div>
+
+    <div class="container mt-4">
+        <!-- Define um container centralizado para o conteúdo principal. Adiciona margem no topo com mt-4 -->
+
+        <div class="row">
+            <!-- Define uma linha usando o sistema de grid do Bootstrap -->
+
+            <div class="col-md-6 mb-4">
+                <!-- Define uma coluna que ocupa metade da largura em dispositivos médios e menores -->
+                <h2>🍽 • Sobre Nós</h2>
+                <!-- Subtítulo da seção -->
+                <p>No coração da nossa comunidade, o Restaurante Sabor Divino nasceu do desejo de proporcionar uma
+                    experiência gastronômica
+                    única e memorável para nossos clientes. Fundado por uma família apaixonada pela arte culinária,
+                    nosso restaurante
+                    combina tradição, qualidade e inovação para criar pratos que conquistam não apenas o paladar, mas
+                    também o coração de
+                    quem nos visita. ❤</p>
+                <!-- Parágrafo descrevendo a seção -->
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <!-- Define outra coluna que ocupa metade da largura em dispositivos médios e menores -->
+                <h2>Horários de Funcionamento</h2>
+                <!-- Subtítulo da seção -->
+                <table class="table table-striped">
+                    <!-- Cria uma tabela estilizada com listras (table-striped) para melhorar a legibilidade -->
+                    <thead>
+                        <!-- Cabeçalho da tabela -->
+                        <tr>
+                            <!-- Linha do cabeçalho -->
+                            <th>Dia</th>
+                            <!-- Coluna para os dias da semana -->
+                            <th>Horário</th>
+                            <!-- Coluna para os horários correspondentes -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Corpo da tabela -->
+                        <tr>
+                            <!-- Primeira linha de dados -->
+                            <td>Segunda a Sexta</td>
+                            <!-- Primeiro dado da linha: dias úteis -->
+                            <td>11:00 - 22:00</td>
+                            <!-- Segundo dado da linha: horário de funcionamento -->
+                        </tr>
+                        <tr>
+                            <!-- Segunda linha de dados -->
+                            <td>Sábado</td>
+                            <!-- Primeiro dado da linha: sábado -->
+                            <td>12:00 - 23:00</td>
+                            <!-- Segundo dado da linha: horário de funcionamento -->
+                        </tr>
+                        <tr>
+                            <!-- Terceira linha de dados -->
+                            <td>Domingo</td>
+                            <!-- Primeiro dado da linha: domingo -->
+                            <td>12:00 - 20:00</td>
+                            <!-- Segundo dado da linha: horário de funcionamento -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <!-- Define uma coluna que ocupa metade da largura em dispositivos médios e menores -->
+                <h2>🚀 • MISSÃO</h2>
+                <!-- Subtítulo da seção -->
+                <p>Entregar momentos especiais por meio da culinária, utilizando ingredientes frescos e selecionados,
+                    preparados com o mais
+                    alto padrão de qualidade. Acreditamos que uma boa refeição vai além do prato, sendo uma celebração
+                    da vida e das
+                    conexões humanas.</p>
+                <!-- Parágrafo descrevendo a seção -->
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <!-- Define uma coluna que ocupa metade da largura em dispositivos médios e menores -->
+                <h2>👁 • VISÃO</h2>
+                <!-- Subtítulo da seção -->
+                <p>Tornar-se referência na gastronomia local, sendo reconhecido não apenas pelos sabores marcantes de
+                    nossos pratos, mas
+                    também pelo atendimento acolhedor e o ambiente convidativo que criamos para nossos clientes.</p>
+                <!-- Parágrafo descrevendo a seção -->
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <!-- Define uma coluna que ocupa metade da largura em dispositivos médios e menores -->
+                <h2>🙌 • VALORES </h2>
+                <!-- Subtítulo da seção -->
+                <p>Priorizamos a qualidade em cada prato, utilizando ingredientes frescos e práticas sustentáveis que
+                    minimizam impactos
+                    ambientais. Valorizamos produtores locais, fortalecendo a comunidade, e oferecemos um atendimento
+                    acolhedor e
+                    personalizado para que todos os nossos clientes se sintam em casa. Esses valores guiam nossa missão
+                    de proporcionar uma
+                    experiência gastronômica inesquecível.</p>
+                <!-- Parágrafo descrevendo a seção -->
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Restaurante Sabor Divino. Todos os direitos reservados.</p>
+        <!-- Rodapé com uma mensagem de direitos autorais -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
